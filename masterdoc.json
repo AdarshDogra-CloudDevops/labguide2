@@ -4,21 +4,25 @@
     "Language": "English",
     "BaseURL": "https://github.com/AdarshDogra-CloudDevops/Labguide",
     "Files": [
-      {
-        "RawFilePath": "https://raw.githubusercontent.com/AdarshDogra-CloudDevops/Labguide/main/lab1-launch-template.md",
+       {
+        "RawFilePath": "https://raw.githubusercontent.com/AdarshDogra-CloudDevops/Labguide/main/gettingstarted.md",
         "Order": 1
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/AdarshDogra-CloudDevops/Labguide/main/lab2-load-balancer.md",
+        "RawFilePath": "https://raw.githubusercontent.com/AdarshDogra-CloudDevops/Labguide/main/lab1-launch-template.md",
         "Order": 2
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/AdarshDogra-CloudDevops/Labguide/main/lab3-auto-scaling.md",
+        "RawFilePath": "https://raw.githubusercontent.com/AdarshDogra-CloudDevops/Labguide/main/lab2-load-balancer.md",
         "Order": 3
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/AdarshDogra-CloudDevops/Labguide/main/lab4-validation.md",
+        "RawFilePath": "https://raw.githubusercontent.com/AdarshDogra-CloudDevops/Labguide/main/lab3-auto-scaling.md",
         "Order": 4
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/AdarshDogra-CloudDevops/Labguide/main/lab4-validation.md",
+        "Order": 5
       }
     ]
   }
