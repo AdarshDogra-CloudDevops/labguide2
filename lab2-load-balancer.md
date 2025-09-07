@@ -26,7 +26,8 @@ In this lab, we will create an **Application Load Balancer (ALB)** that distribu
    ![](./media/lb-step4.png)
 
 4. **Create Target Group**
-   - In the **Target Group** section, click **Create Target Group** (new window).  
+   - In the **Target Group** section, click **Create Target Group** (new window).
+     ![](./media/lb-step5.png)
    - **Target Type**: Instances
      ![](./media/lb-step6.png)
    - **Target Group Name**: `server-tg`  
