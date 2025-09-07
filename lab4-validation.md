@@ -22,9 +22,10 @@ In this lab, we will validate the **Load Balancer** and the **Auto Scaling Group
 1. Scroll down to the **Resource Map Target Instances** section in Load balancer page.
    ![](./media/asg8.png)
 2. Terminate one instance.
-3. Wait 2–3 minutes → ASG will **recreate the instance** to maintain desired capacity.  
+3. ![](./media/it.png)
+4. Wait 2–3 minutes → ASG will **recreate the instance** to maintain desired capacity.  
    ![](./media/averify.png)
-4. Observe:
+5. Observe:
    - While one instance is down, traffic is routed to the other.
    - Once the new instance is healthy, traffic is balanced between both servers.
    - If any instance fails, the ASG provisions a replacement automatically.
