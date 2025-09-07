@@ -4,7 +4,7 @@
     "Language": "English",
     "BaseURL": "https://github.com/AdarshDogra-CloudDevops/Labguide",
     "Files": [
-       {
+      {
         "RawFilePath": "https://raw.githubusercontent.com/AdarshDogra-CloudDevops/Labguide/main/gettingstarted.md",
         "Order": 1
       },
