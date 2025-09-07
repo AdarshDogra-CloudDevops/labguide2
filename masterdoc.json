@@ -1,0 +1,25 @@
+[
+  {
+    "Name": "AWS Labs - Launch Template, ALB, and ASG",
+    "Language": "English",
+    "BaseURL": "https://github.com/AdarshDogra-CloudDevops/Labguide",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/AdarshDogra-CloudDevops/Labguide/main/lab1-launch-template.md",
+        "Order": 1
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/AdarshDogra-CloudDevops/Labguide/main/lab2-load-balancer.md",
+        "Order": 2
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/AdarshDogra-CloudDevops/Labguide/main/lab3-auto-scaling.md",
+        "Order": 3
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/AdarshDogra-CloudDevops/Labguide/main/lab4-validation.md",
+        "Order": 4
+      }
+    ]
+  }
+]
