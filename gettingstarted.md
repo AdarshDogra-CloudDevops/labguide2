@@ -18,6 +18,22 @@ Before starting, ensure you are familiar with:
 
 ---
 
+## 🏗️ Pre-Provisioned Lab Environment
+In this lab environment, you will be provided with the following resources already created for you:
+
+- **VPC**: `MyVPC`  
+- **Subnets**:  
+  - `Public-Subnet-1`  
+  - `Public-Subnet-2`  
+- **Default Security Group** with the following inbound rules:  
+  - Port **80 (HTTP)** open to the internet  
+  - Port **22 (SSH)** open to the internet  
+- **Internet Gateway (IGW)** attached to the VPC, allowing internet access for resources in public subnets.
+
+You will use these preconfigured resources while creating your **Launch Template**, **Load Balancer**, and **Auto Scaling Group**.
+
+---
+
 ## 🔎 Lab Overview
 In this lab, you will build a **highly available web application setup** using an **Application Load Balancer (ALB)** and an **Auto Scaling Group (ASG)**.
 
