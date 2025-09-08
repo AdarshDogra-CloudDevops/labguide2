@@ -1,5 +1,18 @@
 # Lab 3: Creating an Auto Scaling Group
 
+## 📝 Overview – Auto Scaling Group (ASG)
+
+An **Auto Scaling Group (ASG)** automatically manages the number of EC2 instances in response to demand or failures.  
+
+Key benefits of ASG:
+- **High availability** – ensures a minimum number of instances are always running  
+- **Scalability** – increases or decreases instance count based on load  
+- **Self-healing** – replaces unhealthy or terminated instances automatically  
+- Integrates with **Launch Templates** for consistent instance configuration  
+- Can be attached to a **Load Balancer** for seamless traffic distribution  
+
+ASG helps maintain performance while optimizing costs.
+
 In this lab, we will create an **Auto Scaling Group (ASG)** that launches EC2 instances using the Launch Template and attaches them to the Load Balancer.
 
 ---
