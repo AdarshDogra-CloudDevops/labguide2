@@ -1,5 +1,17 @@
 # Lab 1: Creating a Launch Template
 
+## 📝 Overview – Launch Template
+
+A **Launch Template** in AWS defines the configuration of EC2 instances that can be launched automatically or through Auto Scaling Groups.  
+It allows you to predefine settings such as:
+
+- **AMI (Amazon Machine Image)** for the OS and base configuration  
+- **Instance type** (e.g., t2.micro)  
+- **Key pairs, Security groups, and Networking details**  
+- **User Data scripts** to install software automatically at launch  
+
+Using Launch Templates ensures **consistency and automation** when provisioning instances.
+
 In this lab, we will create a **Launch Template** that provisions EC2 instances with a web server enabled via User Data.
 
 ---
