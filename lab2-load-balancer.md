@@ -1,5 +1,18 @@
 # Lab 2: Creating an Application Load Balancer
 
+## 📝 Overview – Load Balancer
+
+An **Application Load Balancer (ALB)** distributes incoming traffic across multiple EC2 instances to improve **availability** and **scalability**.  
+
+Key features of ALB:
+- Operates at **Layer 7 (HTTP/HTTPS)** of the OSI model  
+- Can handle **routing based on content** (e.g., path-based or host-based routing)  
+- Provides a **single DNS name** that users access instead of individual EC2 IPs  
+- Performs **health checks** to route traffic only to healthy targets  
+
+This ensures users always get connected to a healthy instance, even if one instance fails.
+
+
 In this lab, we will create an **Application Load Balancer (ALB)** that distributes traffic across backend instances.
 
 ---
